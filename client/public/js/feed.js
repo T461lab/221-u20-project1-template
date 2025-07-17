@@ -1,3 +1,12 @@
+let me = {title: 'story 1', body: '', link: 15};
+let you = 
+window.addEventListener('load' , () => {
+  let content = document.getElementById("content");
+  content.innerHTML = me.firstname + "<br />";
+  content.innerHTML = me.lastname + "<br />";
+  content.innerHTML = me.age;
+});
+
 function goToLocation(path) {
   window.location.href = path;
 }
